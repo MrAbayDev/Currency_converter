@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 require 'currency.php';
-
 $currency = new Currency();
 $amount = $_POST['amount'] ?? '';
 $selectedCurrency = $_POST['Ccy'] ?? '';
